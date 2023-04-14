@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./src/imgEspaco/agulha03.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/agulha.css">
+    <link rel="stylesheet" href="./src/css/agulha_responsivo.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <title>Agulha E.C</title>
+</head>
+<body>
+    <div class="fundo_video">
+        <video class="video" autoplay loop muted>
+            <source src="./src/imgEspaco/Pexels Videos 2297636.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header class="cabecalho">			
+        <a>
+            <img class="logo" src="./src/imgEspaco/agulha03.png" alt="logo" />
+        </a>
+        <nav>
+            <ul class="menu">               
+                <li><a href="#local">Estúdio</a></li>
+                <li><a href="luna.html">Luna</a></li>
+                <li><a href="jonas.html">Jonas</a></li>             
+            </ul>           
+        </nav>
+    </header>
+    <div class="container">	
+        <div class="informacoes">						
+            <img class="titulo" src="./src/imgEspaco/agulha01-removebg-preview.png" alt="logo" />
+            <p class="descricao"> 
+                T A T T O O - M O D A - A R T E.
+            </p>
+             <a href="https://www.instagram.com/estudioagulha_/">			 
+                 <button class="botao-trailer">Instagram</button>
+            </a> 
+        </div>
+    </div>
+    <div class="containermapa" id="local" >
+        <div class="informacoes">						
+            <h1 class="titulo">Estúdio</h1><br>
+            <p class="descricao"> 
+                Localizada na R. Conde de Porto Alegre, 239 - Centro, Santa Maria - RS, CEP: 97010-000, em cima do Porto Sushi Delivery Express.<br>Contatos pelo Whatsapp ou por direct no instagram
+                <!-- Em linguística, a noção de texto é ampla e ainda aberta a uma definição mais precisa. Grosso modo, pode ser entendido como manifestação linguística das ideias de um autor, que serão interpretadas pelo leitor de acordo com seus conhecimentos linguísticos e culturais. Seu tamanho é variável -->
+            </p>
+            
+            <div class="container-mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d866.5440319576991!2d-53.81532644182999!3d-29.6856729035137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-29.6842245!2d-53.8154061!4m5!1s0x9503cb5cf17a28d1%3A0xa983593e991c675a!2sR.%20Conde%20de%20Porto%20Alegre%2C%20239%20-%20Centro%2C%20Santa%20Maria%20-%20RS%2C%2097010-000!3m2!1d-29.685575!2d-53.815189499999995!5e0!3m2!1spt-BR!2sbr!4v1676237207700!5m2!1spt-BR!2sbr" width="700" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>		
+    </div>	
+</body>
+<footer>
+    <img  class="logodev" src="./src/imgDev/logo-branco.png" alt="">
+</footer>
+
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+<script>
+var $doc = $('html, body');
+$('a').click(function() {
+    $doc.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+    return false;
+});
+</script>
