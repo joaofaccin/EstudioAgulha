@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="shortcut icon" href="./src/imgLuna/logo lua luna.png" type="image/x-icon" >
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet" />
+
+		<link rel="stylesheet" href="./src/css/reset.css">
+        <link rel="stylesheet" href="./src/css/carrossel.css">
+		<link rel="stylesheet" href="./src/css/luna.css">
+		<link rel="stylesheet" href="./src/css/luna_responsivo.css">
+		<title>Luna</title>
+	</head>
+	<body>
+		<div class="fundo_video">
+			<video class="video" autoplay loop muted>
+				<source src="./src/imgLuna/pexels-tima-miroshnichenko-6764979.mp4" type="video/mp4" />
+			</video>
+		</div>
+		<header class="cabecalho">
+			<a>
+				<img class="logo" src="./src/imgLuna/logo lua luna.png" alt="" />
+			</a>
+			<nav>
+				<ul class="menu">					
+                    <li><a href="#galeria">Galeria</a></li>
+					<li><a href="https://api.whatsapp.com/send?phone=5555997118884">Contato</a></li>
+					<li><a href="index.html">Espaço</a></li>              
+				</ul>
+				</ul>
+			</nav>
+        </header>
+			<div class="container">	
+				<div class="informacoes">						
+					<img class="imagem-titulo" src="./src/imgLuna/logo luna rosa.png" alt="Logo luna" />
+					<p class="descricao"> 
+						ROUPAS E UNIFORMES.
+					</p>
+					 <a href="https://www.instagram.com/jonastattoo_/">			 
+						 <button class="botao-trailer" >Instagram</button>
+					</a> 
+				</div>
+			</div>
+	
+			<div class="galeria" id="galeria">
+                <div class="informacoes">
+                  <h1 class="titulo">Clientes</h1>
+                  <br />
+                  <div>
+                    <div class="slider">
+                      <div class="slides">
+                        <!--Radio-->
+                        <input type="radio" name="radio-btn" id="radio1" />
+                        <input type="radio" name="radio-btn" id="radio2" />
+                        <input type="radio" name="radio-btn" id="radio3" />
+                        <input type="radio" name="radio-btn" id="radio4" />
+                        <!-- <input type="radio" name="radio-btn" id="radio5" /> -->
+                        <div class="slide first">
+                            <img src="./src/imgClientes/bunker.png"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./src/imgClientes/bestbeef.jpg"/>
+                        </div>
+                        <div class="slide">
+                          <img src="./src/imgClientes/muvuca.jpg"/>
+                        </div>
+                        <div class="slide">
+                          <img src="./src/imgClientes/casagabbi.jpg"/>
+                        </div>
+                        <!-- <div class="slide">
+                          <img src="./src/imgClientes/churrrascodopaulo.png"/>
+                        </div> -->
+                        <!-- NAVEGDOR-->
+                        <div class="navegation-auto">
+                          <div class="auto-btn1"></div>
+                          <div class="auto-btn2"></div>
+                          <div class="auto-btn3"></div>
+                          <div class="auto-btn4"></div>
+                          <!-- <div class="auto-btn5"></div> -->
+                        </div>
+                      </div>
+          
+                      <div class="manual-nav">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                        <!-- <label for="radio5" class="manual-btn"></label> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+	
+	</body>
+	<footer>
+		<img  class="footer" src="./src/imgDev/logo-branco.png" alt="">
+	</footer>
+</html>
+<script src="./src/js/script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script>
+    var $doc = $('html, body');
+    $('a').click(function() {
+        $doc.animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top
+        }, 500);
+        return false;
+    });
+    </script>

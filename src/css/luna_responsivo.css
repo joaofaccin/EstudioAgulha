@@ -1,0 +1,224 @@
+@media(max-width: 1200px){
+
+    body{
+        background-color: rgb(17, 17, 17);
+    }
+
+    .fundo-video{
+        display: none;
+    }
+
+    .container
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 30px
+    }  
+    
+    .container .titulo{
+        width: 350px;
+    }
+   
+
+    .container .informacoes{
+        display: flex;
+        align-items: center;
+        flex-direction: column;       
+    }
+   
+
+    .container .descricao{
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .container .botao-trailer{
+        background-color:  rgb(255, 0, 93);;
+        color: #ffffff;
+    }
+
+
+
+}
+@media (max-width: 1024px){
+    .containermapa{
+        max-width:  1440px;
+        margin:  0 auto;
+        display: flex;
+        align-items: center;
+        height: calc(100vh);
+        padding: 0 30px 30px;
+        text-align: center;
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 5%, rgba(0, 0, 0, 0.404) 50%, rgba(0,0,0,1) 100%);  
+    }
+}
+
+@media (max-width: 500px){
+
+    .container{
+        max-width: 1440px;
+        margin:  0 auto;
+        display: flex;
+        align-items: center;
+        height: calc(70vh);
+        padding: 0 30px 30px;
+        text-align: center;
+        margin-top: -110px;
+    }
+    .containermapa .informacoes
+    {
+        width: 1028px; 
+        margin-left: -14px;
+        margin-right: -14px; 
+    }
+   
+    .galeria {
+        max-width: 1440px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        height: calc(70vh);
+        padding: 0 30px 30px;
+        text-align: center;
+        background-color: #e2c8e6;
+        justify-content: space-evenly;
+    }
+    .galeria .titulo{
+        color: rgb(255, 0, 93);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        margin-top: 40px;
+       
+    }
+    .cabecalho{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        
+    }
+    .cabecalho nav li a{
+        font-weight: bold;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px;
+        border-radius: 50px;
+        transition: 0.2s;
+    }
+
+    .container .imagem-titulo{
+        max-width: 40%;
+    }
+
+    .modal .fechar-modal{
+        width: 30px;
+        line-height: 30px;
+    }
+
+    .modal #video{
+    width: 300px;
+    height: 169px;
+    }
+
+    footer .logodev{
+        width: 80px;
+   }
+
+    iframe{
+
+        width: 350px !important;
+        height: 200px !important;
+
+    }
+}
+
+@media (max-width: 376px){
+
+        .container{
+        max-width: 1440px;
+        margin:  0 auto;
+        display: flex;
+        align-items: center;
+        height: calc(70vh);
+        padding: 0 30px 30px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .containermapa{
+        max-width:  1440px;
+        margin:  0 auto;
+        display: flex;
+        align-items: center;
+        height: calc(100vh);
+        padding: 0 30px 30px;
+        text-align: center;
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 5%, rgba(0, 0, 0, 0.404) 50%, rgba(0,0,0,1) 100%);  
+    }
+    .containermapa .informacoes
+    {
+        width: 1028px; 
+        margin-left: -14px;
+        margin-right: -14px; 
+    }
+   
+    .galeria {
+        max-width: 1440px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        height: calc(70vh);
+        padding: 0 30px 30px;
+        text-align: center;
+        background-color: #e2c8e6;
+        justify-content: space-evenly;
+    }
+    .galeria .titulo{
+        color: rgb(255, 0, 93);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        margin-top: 40px;
+       
+    }
+    .cabecalho{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        
+    }
+    .cabecalho nav li a{
+        font-weight: bold;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px;
+        border-radius: 50px;
+        transition: 0.2s;
+    }
+
+    .container .imagem-titulo{
+        max-width: 75%;
+    }
+
+    .modal .fechar-modal{
+        width: 30px;
+        line-height: 30px;
+    }
+
+    .modal #video{
+    width: 300px;
+    height: 169px;
+    }
+
+    footer .logodev{
+        width: 80px;
+   }
+
+    iframe{
+
+        width: 350px !important;
+        height: 200px !important;
+
+    }
+        }
