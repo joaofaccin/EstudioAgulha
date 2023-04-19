@@ -1,6 +1,7 @@
 body{
     font-family: 'Advent Pro';
-    background-color: #000000
+    background-color: #000000;
+    overflow-x:  hidden;
 }
 
 .cabecalho{
@@ -14,7 +15,7 @@ body{
 }
 
 .cabecalho .logo{
-    width: 130px; 
+    width: 100px; 
 }
 
 .cabecalho .menu{
@@ -117,7 +118,7 @@ body{
     top:0;
     left:0;
     background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 5%, rgba(0, 0, 0, 0.404) 50%, rgba(0,0,0,1) 100%);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6418942577030813) 50%, rgba(0,0,0,1) 100%);
     
 }
 
