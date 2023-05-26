@@ -67,7 +67,7 @@ body{
     margin-right: auto; 
 }
 .container .descricao{
-    color:rgb(151, 180, 195);
+    color: rgb(241, 241, 241);
     font-size: 18px;
     margin: 30px 0;    
 }
@@ -163,6 +163,10 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.64189425770308
 .modal.aberto{
     opacity: 1;
     visibility: visible;   
+}
+
+.brasil{
+    width: 20px;
 }
 /*----------------------------Galeria-----------------------------------*/
 
